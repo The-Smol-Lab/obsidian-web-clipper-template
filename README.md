@@ -75,5 +75,4 @@ If you're creating or modifying templates manually, ensure they follow this gene
 ## Additional Resources
 
 - [Obsidian Web Clipper on Chrome Web Store](https://obsidian.md/clipper)
-- [Obsidian Forum: Web Clipper Discussions](https://forum.obsidian.md/tag/web-clipper)
-- [Obsidian Help: URI Schemes](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI)
+- [Web Clipper Interpreter](https://help.obsidian.md/web-clipper/interpreter)
