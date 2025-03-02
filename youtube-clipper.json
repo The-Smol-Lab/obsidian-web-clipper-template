@@ -1,0 +1,13 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "YouTube",
+	"behavior": "create",
+	"noteContentFormat": "![{{title}}]({{schema:@VideoObject:embedUrl|replace:\\\"embed/\\\":\\\"watch?v=\\\"}})\n\n{{\"Create a 300-word article from the YouTube video's description and transcript, maintaining the original tone and key points. Structure it with an intro, body (using bullet points where helpful), and conclusion.\"}}\n\n### Transcript\n{{selectorHtml:#ytvideotext|markdown}}",
+	"properties": [],
+	"triggers": [
+		"https://www.youtube.com/watch"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "Clippings 🧷/YouTube",
+	"context": "### Description\n{{description}}\n\n### Transcript\n{{selectorHtml:#ytvideotext|markdown}}"
+}
