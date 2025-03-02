@@ -5,60 +5,68 @@ This guide explains how to import JSON files containing templates into the Obsid
 ## Prerequisites
 
 - [Obsidian](https://obsidian.md/) installed on your device
-- [Obsidian Web Clipper](https://chrome.google.com/webstore/detail/obsidian-web-clipper/plplajofbhcfhdpkhoibkocphcmjlkmi) extension installed in Chrome/Chromium-based browser
+- [Obsidian Web Clipper](https://chrome.google.com/webstore/detail/obsidian-web-clipper/plplajofbhcfhdpkhoibkocphcmjlkmi) extension installed in Chrome or a Chromium-based browser
 - A JSON file containing the web clipper template you want to import
 
 ## Steps to Import a Template
 
-1. **Open Chrome** and click on the Obsidian Web Clipper extension icon in your toolbar.
+1. **Open Chrome** and ensure the following extensions are installed:
+   - Click the Extensions icon (🧩) in your toolbar, then select "Manage Extensions."
+   - Install the [Obsidian Web Clipper](https://chrome.google.com/webstore/detail/obsidian-web-clipper/plplajofbhcfhdpkhoibkocphcmjlkmi) extension if not already installed.
+   - Install the [YouTube Text Tools](https://chromewebstore.google.com/detail/youtube-text-tools/pcmahconeajhpgleboodnodllkoimcoi) extension and enable it for enhanced text extraction from YouTube pages.
+   - Ensure both extensions are enabled.
 
-2. **Access Template Settings**:
-   - Click the gear icon (⚙️) or settings option in the extension popup
-   - Navigate to the templates section of the settings panel
+2. **Access the Obsidian Web Clipper**:
+   - Click the Obsidian Web Clipper extension icon in your toolbar.
 
-3. **Import the Template**:
-   - Click the "Import" button in the settings interface
-   - A file browser will open - navigate to and select your JSON template file
-   - Click "Open" to import the template
+3. **Open Template Settings**:
+   - In the extension popup, click the gear icon (⚙️) or the settings option.
+   - Navigate to the "Templates" section in the settings panel.
 
-4. **Verify the Import**:
-   - The imported template should now appear in your templates list
-   - You can select it to view or edit its properties
+4. **Import the Template**:
+   - Click the "Import" button in the templates interface.
+   - A file browser will appear—navigate to and select your JSON template file.
+   - Click "Open" to import the template.
+
+5. **Verify the Import**:
+   - The imported template should appear in your templates list.
+   - Select it to review or edit its properties if needed.
 
 ## Template Configuration (Post-Import)
 
-After importing your template, you can configure it directly in the extension settings:
+After importing, configure your template in the extension settings:
 
-1. **Edit the template name** by clicking on the name field
-2. **Set the behavior** (for example, "Create new note")
-3. **Configure the note name format** using variables like `{{title}}`, `{{date}}`, and `{{published}}`
-4. **Define the note location** (folder or path where clipped content will be saved)
-5. **Select a vault** from the dropdown if you're using multiple vaults
-6. **Set up template triggers** to automatically select this template when specific URL patterns are detected
+1. **Edit the Template Name**: Click the name field to rename it.
+2. **Set the Behavior**: Choose an option like "Create new note."
+3. **Configure the Note Name Format**: Use variables such as `{{title}}`, `{{date}}`, or `{{published}}`.
+4. **Define the Note Location**: Specify the folder or path where clipped content will be saved.
+5. **Select a Vault**: Choose a vault from the dropdown if using multiple vaults.
+6. **Set Up Template Triggers**: Define URL patterns (e.g., `https://example.com/*`) to auto-select this template.
 
 ## Troubleshooting
 
-- **Import button not working**: Make sure your JSON file has the correct format for Obsidian Web Clipper templates
-- **Template not appearing after import**: Try refreshing the extension or restarting your browser
-- **Formatting issues**: Check the JSON structure of your template file for errors
-- **Extension not connecting to Obsidian**: Ensure Obsidian is running and the Obsidian URI is properly configured
+- **Import Button Not Working**: Verify your JSON file matches the expected Obsidian Web Clipper template format.
+- **Template Not Appearing**: Refresh the extension or restart your browser.
+- **Formatting Issues**: Check your JSON file for syntax errors.
+- **Extension Not Connecting to Obsidian**: Ensure Obsidian is running and the Obsidian URI is configured correctly.
 
 ## Using Your Imported Template
 
-1. Browse to any webpage you want to clip
-2. Click the Obsidian Web Clipper extension icon
-3. Select your imported template from the dropdown menu
-4. Click the clip button to save the content according to your template settings
+1. Visit a webpage you want to clip.
+2. Click the Obsidian Web Clipper extension icon.
+3. Select your imported template from the dropdown menu.
+4. Click the "Clip" button to save the content per your template settings.
 
 ## Backing Up Templates
 
-It's a good practice to keep backups of your templates:
-- You can export existing templates using the "Export" button in the extension's template settings
-- Save these JSON files in a secure location for future use or sharing with others
+To safeguard your templates:
+- Use the "Export" button in the extension’s template settings to save templates as JSON files.
+- Store these files in a secure location for backup or sharing.
 
 ## Template JSON Structure
 
-If you're creating or modifying templates manually, ensure they follow this general structure:
+If creating or editing templates manually, follow this structure:
+
 ```json
 {
   "name": "Template Name",
@@ -74,5 +82,6 @@ If you're creating or modifying templates manually, ensure they follow this gene
 
 ## Additional Resources
 
-- [Obsidian Web Clipper on Chrome Web Store](https://obsidian.md/clipper)
+- [Obsidian Web Clipper on Chrome Web Store](https://chrome.google.com/webstore/detail/obsidian-web-clipper/plplajofbhcfhdpkhoibkocphcmjlkmi)
 - [Web Clipper Interpreter](https://help.obsidian.md/web-clipper/interpreter)
+- [YouTube Text Tools Extension](https://chromewebstore.google.com/detail/youtube-text-tools/pcmahconeajhpgleboodnodllkoimcoi)
