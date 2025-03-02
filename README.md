@@ -85,3 +85,4 @@ If creating or editing templates manually, follow this structure:
 - [Obsidian Web Clipper on Chrome Web Store](https://chrome.google.com/webstore/detail/obsidian-web-clipper/plplajofbhcfhdpkhoibkocphcmjlkmi)
 - [Web Clipper Interpreter](https://help.obsidian.md/web-clipper/interpreter)
 - [YouTube Text Tools Extension](https://chromewebstore.google.com/detail/youtube-text-tools/pcmahconeajhpgleboodnodllkoimcoi)
+- [More Templates](https://github.com/obsidian-community/web-clipper-templates/tree/main)
